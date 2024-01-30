@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+form {
+  width: 600px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  line-height: 40px;
+  height: 630px;
+}
+
+label {
+  display: block;
+  padding-inline: 28px;
+
+}
+
+input {
+  width: 58%;
+  padding: 13px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+select {
+  width: 58%;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.p-2 {
+  padding: 1.1rem;
+}
+
+textarea {
+  width: 58%;
+  padding: 14px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+
+.btn {
+  background: #383dd5;
+  color: rgb(250, 247, 247);
+  padding: 7px 0px;
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+  font-weight: 400;
+  margin-top: 10px;
+
+}
+
+.py-10 {
+  padding-top: 0.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-20 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
